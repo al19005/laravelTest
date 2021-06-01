@@ -19,7 +19,7 @@
 
                 <a href="{{ url('channels/create') }}" class="list-group-item list-group-item-action"><i class="fas fa-plus" class="fa-fw"></i>　add channel</a>
                 <p></p>
-                <a href="{{ url('users') }}" class="list-group-item list-group-item-action"><i class="fas fa-users" class="fa-fw"></i>　ユーザ一覧 </a>
+                <a href="{{ url('users') }}" class="list-group-item list-group-item-action"><i class="fas fa-users" class="fa-fw"></i>　Laravel </a>
                 <p></p>
                 <form method="POST" action="{{ url('tweets/create') }}" class="list-group-item list-group-item-action">
                     @csrf
